@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 
 
-# first commit
 class AbstractQueue(ABC):
     @abstractmethod
     def __len__(self):
